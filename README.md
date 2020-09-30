@@ -26,6 +26,19 @@
 ```
 python ./ioscrack.py
 ```
+###If the backup is not encrypted, within that file, you should see text like this:
+
+  <dict>
+     <key>RestrictionsPasswordKey</key>
+     <data>
+     FklNcq4P3mJYSNjDFWvv2ei2+uE=
+     </data>
+     <key>RestrictionsPasswordSalt</key>
+     <data>
+     aSbUXg==
+     </data>
+  </dict>
+The key is: FklNcq4P3mJYSNjDFWvv2ei2+uE= and the salt is: aSbUXg==
 
 
 ### Source Code
